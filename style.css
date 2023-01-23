@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    background-color: #1f2937;
+    height: 400px;
+}
+
+#header-logo{
+   color: #F9FAF8;
+   font-size: 25px; 
+}
+
+.navbar-right{
+    color: #E5E7EB;
+    font-size: 18px;
+    justify-content: space-around;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    width: 100px;
+    margin: 0 -5px;
+}
+
+.navbar-left, .navbar-right{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    
+}
