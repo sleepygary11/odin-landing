@@ -3,6 +3,8 @@
     padding: 0;
 }
 
+/* HEADER AND NAVBAR */
+
 .header{
     background-color: #1f2937;
     height: 400px;
@@ -16,7 +18,6 @@
 .navbar-right{
     color: #E5E7EB;
     font-size: 18px;
-    justify-content: space-around;
 }
 
 .navbar{
@@ -28,7 +29,6 @@ ul{
     display: flex;
     flex-direction: row;
     width: 100px;
-    margin: 0 -5px;
 }
 
 .navbar-left, .navbar-right{
@@ -36,6 +36,54 @@ ul{
     width: 50%;
     justify-content: center;
     align-items: center;
-    margin: 10px;
-    
+}
+
+/* CONTENT AND IMAGE */
+
+h1{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.content{
+    display: flex;
+    flex-direction: row;
+}
+
+.navbar-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+}
+
+.content-left{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+    margin-left: 25px;
+}
+
+.p-first{
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-top: 20px;
+}
+
+.sign-up-button{
+    background-color: blue;
+    color: white;
+    width: 125px;
+    height: 45px;
+    border: 1px blue;
+    border-radius: 25px;
+    margin-right: 220px;
+    margin-top: 20px;
+}
+
+.img{
+    padding-right: 25px;
 }
